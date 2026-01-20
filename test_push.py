@@ -1,5 +1,8 @@
+import requests
+import json
+import sys
 import os
-
+from datetime import datetime, timedelta, timezone
 # ================= 配置区域 =================
 # 从环境变量读取，如果没有则使用默认值（用于本地测试）
 CF_ZONE_ID = os.environ.get("CF_ZONE_ID", "")
