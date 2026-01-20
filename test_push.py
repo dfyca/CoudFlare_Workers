@@ -7,7 +7,7 @@ from datetime import datetime, timedelta, timezone
 # 从环境变量读取，如果没有则使用默认值（用于本地测试）
 CF_ZONE_ID = os.environ.get("CF_ZONE_ID", "")
 CF_API_TOKEN = os.environ.get("CF_API_TOKEN", "")
-DOMAIN_NAME = "dolby.dpdns.org"
+DOMAIN_NAME = "liuer.indevs.in"
 
 CF_ACCOUNT_ID = os.environ.get("CF_ACCOUNT_ID", "")
 CF_D1_DATABASE_ID = os.environ.get("CF_D1_DATABASE_ID", "")
