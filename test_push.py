@@ -15,7 +15,7 @@ CF_D1_DATABASE_ID = os.environ.get("CF_D1_DATABASE_ID", "")
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 TG_CHAT_ID = os.environ.get("TG_CHAT_ID", "")
 
-EMOS_API_URL = "https://emos.lol/api/plug/sendTelegramMessage"
+EMOS_API_URL = "https://emos.best/api/plug/sendTelegramMessage"
 EMOS_AUTH_TOKEN = os.environ.get("EMOS_AUTH_TOKEN", "")
 EMOS_TO_USER = os.environ.get("EMOS_TO_USER", "")
 # ===========================================
@@ -160,7 +160,7 @@ def send_emos_message(message):
         "Authorization": f"Bearer {EMOS_AUTH_TOKEN}",
         "User-Agent": "Apifox/1.0.0 (https://apifox.com)",
         "Accept": "*/*",
-        "Host": "emos.lol",
+        "Host": "emos.best",
         "Connection": "keep-alive"
         # requests 库在发送 data 字典时会自动处理 Content-Type，
         # 通常不需要手动设置 multipart boundary，除非 API 极其严格。
